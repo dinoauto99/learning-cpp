@@ -1,0 +1,607 @@
+﻿## Bài tập chương 02
+
+#### Bài 1: Nhập vào 2 số `a` và `b`. Bạn hãy in ra màn hình tổng và hiệu của 2 số đó.
+
+Ví dụ:
+```
+a = 2
+b = 3
+a + b = 5
+a - b = -1
+```
+
+---
+#### Bài 2: Nhập vào 1 chữ cái viết thường bất kì. Hãy in ra màn hình chữ cái đó dưới dạng viết hoa.
+
+Ví dụ:
+```
+Chu cai viet thuong: a
+Chu cai viet hoa: A
+```
+
+---
+#### Bài 3: Nhập vào 2 số nguyên `a` và `b`. Hãy hoán đổi giá trị của 2 số đó và in ra màn hình.
+Ví dụ:
+```
+a = 1
+b = 2
+Gia tri cua a la 1
+Gia tri cua b la 2
+```
+
+---
+#### Bài 4: Nhập vào 2 số nguyên dương `a` và `b` (`a` và `b` không trùng giá trị). Hãy in ra màn hình số nhỏ hơn (không dùng cấu trúc if else hoặc toán tử 3 ngôi).
+
+Ví dụ:
+```
+a = 1
+b = 2
+Gia tri nho hon la 1
+```
+
+##########################################################
+
+## Bài tập vòng lặp
+
+#### Bài 1: Nhập 1 số nguyên dương n. In ra màn hình giá trị của **S = 1 + 2 + 3 + ... + n**.
+
+Ví dụ:
+```
+n = 4
+S = 10
+```
+
+#### Bài 2: Nhập 1 số nguyên dương n. In ra màn hình giá trị của **S = 1^2 + 2^2 + 3^2 + ... + n^2**.
+
+Ví dụ:
+```
+n = 4
+S = 30
+```
+
+#### Bài 3: Nhập 1 số nguyên dương n. In ra màn hình giai thừa **n!**.
+
+Ví dụ:
+```
+n = 3
+n! = 6
+```
+
+#### Bài 4: Nhập vào 1 số nguyên dương n. In ra màn hình các số chia hết cho 5 từ **1** đến **n**.
+
+Ví dụ:
+```
+n = 20
+5 10 15 20
+```
+
+##########################################################
+
+## Thực hành sử dụng mảng
+
+#### Bài 1: Tạo mảng số nguyên dương có n phần tử (tối đa 10 phần tử).
+Nhập vào 1 số nguyên dương x và thêm x vào cuối mảng vừa tạo.
+
+---
+
+#### Bài 2: Tạo mảng số nguyên dương có n phần tử (tối đa 10 phần tử).
+Nhập vào 1 số nguyên dương x (0 <= x <= 9) và xóa phần tử ở vị trí x.
+
+---
+
+#### Bài 3: Tạo mảng số nguyên dương có n phần tử (tối đa 10 phần tử).
+Nhập vào 1 số nguyên dương x (0 <= x <= 9) và số nguyên dương y. Thêm y vào vị trí x của mảng.
+
+##########################################################
+
+## Bài tập chương 03
+#### Bài 1: Viết chương trình giải phương trình bậc nhất một ẩn ax + b = 0, trong đó `a` và `b` là các hệ số nhập từ bàn phím.
+
+Gợi ý:
+- Nếu a = 0 và b = 0 thì phương trình có vô số nghiệm.
+- Nếu a = 0 và b != 0 thì phương trình vô nghiệm.
+- Nếu a != 0 thì phương trình có nghiệm duy nhất **x = -b / a**.
+
+Ví dụ:
+```
+a = 1
+b = 2
+Nghiem cua phuong trinh la -2
+```
+
+---
+
+#### Bài 2: Viết chương trình nhập vào số nguyên dương **n** (n <= 100). Tính và hiển thị tổng các số tự nhiên lẻ từ 1 đến n.
+
+Ví dụ:
+```
+n = 10
+Ket qua la 25
+```
+
+---
+#### Bài 3: Viết chương trình nhập nhiệt độ F từ bàn phím rồi tính và hiển thị nhiệt độ đó ở độ C
+
+Gợi ý:
+- degC = (degF - 32) / 1.8
+
+Ví dụ:
+```
+F = 80 
+C = 26.6667
+```
+
+---
+
+#### Bài 4: Viết chương trình nhập vào một số **n** từ bàn phím. Hãy kiểm tra xem **n** có phải số nguyên tố hay không.
+
+Gợi ý:
+- Số nguyên tố là số chỉ chia hết cho 1 và chính nó.
+
+Ví dụ:
+```
+n = 3
+n la so nguyen to
+```
+
+---
+
+#### Bài 5: Viết chương trình nhập vào một số nguyên dương **n** từ bàn phím. Tính tổng các chữ số tạo nên số đó.
+
+Ví dụ:
+```
+n = 2023
+Ket qua la 7
+```
+
+##########################################################
+
+## Thực hành sử dụng mảng (phần 2)
+
+#### Bài 1: Viết chương trình nhập vào 2 số nguyên dương n và m (0 < n <= 10, 0 < m <= 10). Tạo mảng 2 chiều chứa các số nguyên có n hàng và m cột. Tính và in ra màn hình tổng các phần tử có trong mảng.
+
+Ví dụ:
+```
+n = 2
+m = 3
+Nhap mang:
+1 2 3
+4 5 6
+Tong cac phan tu trong mang la: 21
+```
+
+---
+
+#### Bài 2: Viết chương trình nhập vào số nguyên dương n (0 < n <= 10). Tạo mảng 1 chiều có n phần tử là số nguyên và in ra màn hình phần tử có giá trị lớn nhất.
+
+Ví dụ:
+```
+n = 3
+Nhap mang: 1 3 2
+Gia tri lon nhat la: 3
+```
+
+---
+
+#### Bài 3: Viết chương trình nhập vào 2 số nguyên dương n và m (0 < n <= 10, 0 < m <= 10). Tạo mảng 2 chiều chứa các số nguyên có n hàng và m cột. In ra màn hình các phần tử lớn nhất của các hàng.
+
+Ví dụ:
+```
+n = 2
+m = 3
+Nhap mang:
+1 2 3
+4 6 5
+Cac phan tu lon nhat la: 3 6
+```
+
+---
+
+#### Bài 4: Viết chương trình nhập vào 2 số nguyên dương n và m (2 <= n <= 10, 2 <= m <= 10). Tạo mảng 2 chiều chứa các số nguyên có n hàng và m cột. Tính tổng các giá trị biên của mảng vừa tạo.
+
+Ví dụ:
+```
+n = 3
+m = 3
+Nhap mang:
+1 2 3
+4 5 6
+7 8 9
+Tong cac gia tri bien la: 40
+```
+
+##########################################################
+
+## Bài tập chương 04
+
+#### Bài 1: Viết chương trình nhập vào 1 số nguyên n (2 <= n <= 10). Nhập mảng có n số nguyên. Hãy sắp xếp lại mảng đó theo thứ tự giảm dần và in ra màn hình.
+
+Ví dụ:
+```
+n = 4
+Nhap mang: 2 3 1 4 6
+Mang sau khi sap xep: 6 4 3 2 1
+```
+
+---
+
+#### Bài 2: Viết chương trình nhập vào 1 số nguyên n (2 <= n <= 10). Nhập mảng có n số nguyên và nhập số nguyên k. Hãy kiểm tra xem trong mảng có xuất hiện 2 phần tử có tổng bằng k hay không,  nếu có hãy in ra màn hình vị trí của 2 phần tử đó (lấy 2 vị trí đầu tiên tìm được).
+
+Ví dụ:
+```
+n = 4
+Nhap mang: 1 2 3 4
+k = 3
+Ket qua: 0 1
+```
+
+---
+
+#### Bài 3: Viết chương trình nhập vào 2 ma trận có n hàng và m cột (0 < n <= 10, 0 < m <= 10). In ra tổng của 2 ma trận.
+
+Gợi ý:
+- Phép cộng 2 ma trận là việc cộng các phần tử có vị trí tương ứng của 2 ma trận đó
+
+Ví dụ:
+```
+n = 2
+m = 3
+Nhap ma tran 1:
+1 2 3
+1 2 3
+Nhap ma tran 2:
+2 3 4
+2 3 4
+Tong 2 ma tran:
+3 5 7 
+3 5 7 
+```
+
+---
+
+#### Bài 4: Viết chương trình nhập vào 1 ma trận có n hàng và m cột (0 < n <= 10, 0 < m <= 10). In ra màn hình tổng của các số lẻ xuất hiện trong ma trận.
+
+Ví dụ:
+```
+n = 2
+m = 3
+Nhap ma tran:
+1 2 3
+4 5 6
+Tong cac so le la: 9
+```
+
+##########################################################
+
+## Bài tập chương 05
+#### Bài 1: Viết chương trình nhập vào 1 chuỗi gồm các ký tự từ a -> z và có thể chứa khoảng trắng. Hãy loại bỏ các khoảng trắng ở đầu và cuối chuỗi.
+
+Ví dụ:
+```
+Nhap chuoi:     f8 fullstack   
+Ket qua: f8 fullstack
+```
+
+---
+
+#### Bài 2: Viết chương trình nhập vào 1 chuỗi gồm các ký tự a -> z và có thể chứa khoảng trắng. Hãy loại bỏ các khoảng trắng thừa ở giữa các từ.
+
+Ví dụ:
+```
+Nhap chuoi: f8   fullstack
+Ket qua: f8 fullstack
+```
+
+---
+
+#### Bài 3: Viết chương trình nhập vào 1 chuỗi gồm các ký tự a -> z, A -> Z và có thể chứa khoảng trắng. Hãy viết hoa các chữ cái ở đầu mỗi từ, các chữ cái còn lại để ở dạng viết thường.
+
+Ví dụ:
+```
+Nhap chuoi: f8 fulLsTack
+Ket qua: F8 Fullstack
+```
+
+---
+
+#### Bài 4: Viết chương trình nhập vào 1 chuỗi gồm các ký tự a -> z, A -> Z và có thể chưa khoảng trắng. Hãy chuẩn hóa chuỗi đó.
+
+Gợi ý:
+- Loại bỏ khoảng trắng đầu cuối.
+- Loại bỏ khoảng trắng thừa ở giữa các từ.
+- Viết hoa chữ cái đầu, các chữ còn lại viết thường.
+
+Ví dụ:
+```
+Nhap chuoi:    bUI   duC   LONG 
+Ket qua: Bui Duc Long
+```
+
+##########################################################
+
+## Bài tập chương 06
+#### Bài 1: Viết chương trình nhập vào 1 số nguyên dương n. Kiểm tra xem số n có phải là số nguyên tố hay không
+
+Ví dụ:
+```
+n = 3
+3 la so nguyen to
+```
+
+---
+
+#### Bài 2: Viết chương trình nhập vào 1 số nguyên dương n (n > 1). Tính và in ra màn hình tổng các số nguyên tố từ 2 -> n.
+
+*Lưu ý: Làm bằng 2 cách (sử dụng vòng lặp, sử dụng đệ quy)* 
+
+Ví dụ:
+```
+n = 10
+Ket qua: 17
+```
+
+---
+
+Ví dụ:
+
+#### Bài 3: Viết chương trình nhập vào 1 số nguyên dương n. Tính và in ra màn hình **n!**.
+
+*Lưu ý: Làm bằng 2 cách (sử dụng vòng lặp, sử dụng đệ quy)* 
+
+Ví dụ:
+```
+n = 3
+3! = 6
+```
+
+##########################################################
+
+## Bài tập chương 07
+
+#### Bài 1: Tạo mảng động có n phần tử nguyên (tối đa 10 phần tử). Nhập vào 1 số nguyên x và thêm x vào cuối mảng vừa tạo.
+
+Ví dụ:
+```
+n = 4
+Nhap mang: 1 2 3 4
+x = 5
+Mang sau khi them: 1 2 3 4 5
+```
+
+---
+
+#### Bài 2: Tạo mảng động có n phần tử nguyên (tối đa 10 phần tử). Nhập vào 1 số nguyên dương x (0 <= x <= 9) và xóa phần tử ở vị trí x.
+
+Ví dụ:
+```
+n = 4
+Nhap mang: 1 2 3 4
+x = 1
+Mang sau khi xoa: 1 3 4
+```
+
+---
+
+#### Bài 3: Tạo mảng động có n phần tử nguyên (tối đa 10 phần tử). Nhập vào 1 số nguyên dương x (0 <= x <= 9) và số nguyên y. Thêm y vào vị trí x của mảng.
+
+Ví dụ:
+```
+n = 4
+Nhap mang: 1 2 3 4
+y = 7
+x = 1
+Mang sau khi them: 1 7 2 3 4
+```
+
+#### Bài 4: Tạo mảng động có n phần tử nguyên (tối đa 10 phần tử). Sắp xếp lại mảng đó theo thứ tự tăng dần và in ra màn hình.
+
+Ví dụ:
+```
+n = 4
+Nhap mang: 4 3 2 1
+Mang sau khi sap xep: 1 2 3 4
+```
+
+##########################################################
+
+## Bài tập chương 08
+
+#### Bài 1: Viết chương trình nhập vào dữ liệu bán kính của 1 hình tròn. Tính và in ra màn hình chu vi và diện tích của hình tròn đó (sử dụng struct).
+
+Ví dụ:
+```
+Nhap ban kinh: 3
+Chu vi hinh tron: 18.84
+Dien tich hinh tron: 28.26
+```
+
+---
+
+#### Bài 2: Viết chương trình quản lý sản phẩm (tên, đơn giá, số lượng) gồm các chức năng sau:
+- Xem danh sách sản phẩm
+- Thêm sản phẩm mới
+- Xóa sản phẩm
+
+##########################################################
+
+```c
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+struct Product
+{
+	string name;
+	int price;
+	int quantity;
+	
+	friend istream& operator>>(istream &is, Product &product)
+	{
+		cout << "Nhap ten: ";
+		is.ignore();
+		getline(is, product.name);
+		cout << "Nhap don gia: ";
+		is >> product.price;
+		cout << "Nhap so luong: ";
+		is >> product.quantity;
+		
+		return is;
+	}
+	
+	friend ostream& operator<<(ostream &os, Product product)
+	{
+		os << "Ten: " << product.name;
+		os << ", don gia: " << product.price;
+		os << ", so luong: " << product.quantity;
+		
+		return os;
+	}
+};
+
+int show_menu();
+void print_products(Product *products, int size);
+void add_product(Product* &products, int &size);
+void delete_product(Product* &products, int &size);
+
+int main()
+{
+	int size = 0;
+	Product *products = new Product[size];
+	
+	while(true)
+	{
+		int chose = show_menu();
+		
+		system("cls");
+		switch(chose)
+		{
+			case 1:
+				print_products(products, size);
+				break;
+			case 2:
+				add_product(products, size);
+				break;
+			case 3:
+				delete_product(products, size);
+				break;
+			case 0:
+				cout << "Bye bye!";
+				
+				return 0;
+			default:
+				cout << "Lua chon khong hop le." << endl;
+		}
+		
+		cout << "Ban co muon tiep tuc khong? (1/0) ";
+		bool is_continue;
+		cin >> is_continue;
+		
+		if (!is_continue)
+		{
+			cout << "Bye bye!";
+			break;
+		}
+	}
+	
+	return 0;
+}
+
+int show_menu()
+{
+	system("cls");
+	int chose;
+	cout << "====== MENU =====" << endl;
+	cout << "1. Xem danh sach san pham" << endl;
+	cout << "2. Them san pham moi" << endl;
+	cout << "3. Xoa san pham" << endl;
+	cout << "0. Thoat chuong trinh" << endl;
+	
+	cout << "Lua chon cua ban la: ";
+	cin >> chose;
+	
+	return chose;
+}
+
+void print_products(Product *products, int size)
+{
+	if (!size)
+	{
+		cout << "Chua co san pham nao." << endl;
+	}
+	else
+	{
+		cout << "Danh sach san pham: " << endl;
+		for(int i = 0; i < size; i++)
+		{
+			cout << products[i] << endl;
+		}
+	}
+}
+
+void add_product(Product* &products, int &size)
+{
+	Product new_product;
+	cout << "Nhap thong tin san pham moi: " << endl;
+	cin >> new_product;
+	
+	int new_size = size + 1;
+	Product *tmp_products = new Product[new_size];
+	
+	for(int i = 0; i < size; i++)
+	{
+		tmp_products[i] = products[i];
+	}
+	tmp_products[new_size - 1] = new_product;
+	
+	delete[] products;
+	products = tmp_products;
+	size = new_size;
+	
+	cout << "Them san pham thanh cong!" << endl;
+}
+
+void delete_product(Product* &products, int &size)
+{
+	cout << "Nhap ten san pham can xoa: ";
+	string deleted_name;
+	cin.ignore();
+	getline(cin, deleted_name);
+	
+	int deleted_index = -1;
+	for(int i = 0; i < size; i++)
+	{
+		if (!deleted_name.compare(products[i].name))
+		{
+			deleted_index = i;
+			break;
+		}
+	}
+	
+	if (deleted_index == -1)
+	{
+		cout << "Khong tim thay san pham!" << endl;
+		return;
+	}
+	
+	for(int i = deleted_index; i < size - 1; i++)
+	{
+		products[i] = products[i + 1];
+	}
+	size--;
+	
+	Product *tmp_products = new Product[size];
+	for(int i = 0; i < size; i++)
+	{
+		tmp_products[i] = products[i];
+	}
+	
+	delete[] products;
+	products = tmp_products;
+	
+	cout << "Xoa thanh cong!" << endl;
+}
+
+```
+
+##########################################################

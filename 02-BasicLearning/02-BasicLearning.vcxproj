@@ -130,7 +130,10 @@
     <ClCompile Include="02-BasicLearning.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Loop.h" />
+    <ClInclude Include="02-Loop.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Exercises.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

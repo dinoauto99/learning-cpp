@@ -1,13 +1,16 @@
-// 02-BasicLearning.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
-#include "Loop.h"
+#include "02-Loop.h"
+#include "03-Array.h"
 
 int main()
 {
-	Calculator();
-	CountDaysInMonth();
+	// Loop
+	Ex1_SumNnumbers();
+	Ex2_SumSqr();
+	Ex3_Factorial();
+	Ex4_Div5();
+	
+	// Array part 1
+
 
 	return 0;
 }
