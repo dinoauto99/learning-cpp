@@ -133,6 +133,8 @@
     <ClInclude Include="02-Loop.h" />
     <ClInclude Include="03-Array.h" />
     <ClInclude Include="04-Chapter3.h" />
+    <ClInclude Include="05-ArrayChap2.h" />
+    <ClInclude Include="06-Chap4.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Exercises.txt" />

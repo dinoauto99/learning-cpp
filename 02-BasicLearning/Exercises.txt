@@ -40,7 +40,7 @@ Gia tri nho hon la 1
 ```
 
 ##########################################################
-
+file: 02-Loop.h
 ## Bài tập vòng lặp
 
 #### Bài 1: Nhập 1 số nguyên dương n. In ra màn hình giá trị của **S = 1 + 2 + 3 + ... + n**.
@@ -76,7 +76,7 @@ n = 20
 ```
 
 ##########################################################
-
+file: 03-Array.h
 ## Thực hành sử dụng mảng
 
 #### Bài 1: Tạo mảng số nguyên dương có n phần tử (tối đa 10 phần tử).
@@ -93,7 +93,7 @@ Nhập vào 1 số nguyên dương x (0 <= x <= 9) và xóa phần tử ở vị
 Nhập vào 1 số nguyên dương x (0 <= x <= 9) và số nguyên dương y. Thêm y vào vị trí x của mảng.
 
 ##########################################################
-
+file: 04-Chapter3.h
 ## Bài tập chương 03
 #### Bài 1: Viết chương trình giải phương trình bậc nhất một ẩn ax + b = 0, trong đó `a` và `b` là các hệ số nhập từ bàn phím.
 
@@ -155,7 +155,7 @@ Ket qua la 7
 ```
 
 ##########################################################
-
+file: 05-ArrayChap2.h
 ## Thực hành sử dụng mảng (phần 2)
 
 #### Bài 1: Viết chương trình nhập vào 2 số nguyên dương n và m (0 < n <= 10, 0 < m <= 10). Tạo mảng 2 chiều chứa các số nguyên có n hàng và m cột. Tính và in ra màn hình tổng các phần tử có trong mảng.
@@ -211,7 +211,7 @@ Tong cac gia tri bien la: 40
 ```
 
 ##########################################################
-
+file: 06-Chap4.h
 ## Bài tập chương 04
 
 #### Bài 1: Viết chương trình nhập vào 1 số nguyên n (2 <= n <= 10). Nhập mảng có n số nguyên. Hãy sắp xếp lại mảng đó theo thứ tự giảm dần và in ra màn hình.
@@ -272,7 +272,7 @@ Tong cac so le la: 9
 ```
 
 ##########################################################
-
+file: 07-Chap5.h
 ## Bài tập chương 05
 #### Bài 1: Viết chương trình nhập vào 1 chuỗi gồm các ký tự từ a -> z và có thể chứa khoảng trắng. Hãy loại bỏ các khoảng trắng ở đầu và cuối chuỗi.
 

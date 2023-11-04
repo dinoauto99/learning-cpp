@@ -1,4 +1,5 @@
 ﻿  02-BasicLearning.cpp
 G:\Workplace\DevCpp\02-BasicLearning\02-BasicLearning\04-Chapter3.h(15,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 G:\Workplace\DevCpp\02-BasicLearning\02-BasicLearning\04-Chapter3.h(37,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+G:\Workplace\DevCpp\02-BasicLearning\02-BasicLearning\05-ArrayChap2.h(73,6): warning C4101: 'max': unreferenced local variable
   02-BasicLearning.vcxproj -> G:\Workplace\DevCpp\02-BasicLearning\x64\Debug\02-BasicLearning.exe
