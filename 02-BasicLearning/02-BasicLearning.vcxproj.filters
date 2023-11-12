@@ -35,6 +35,9 @@
     <ClInclude Include="06-Chap4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="07-Chap5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Exercises.txt">

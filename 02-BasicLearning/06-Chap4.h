@@ -146,3 +146,43 @@ void Ex4_SumOddinMatrix() {
 	}
 	std::cout << "sum = " << sum << std::endl;
 }
+
+void BubbleSort1(int a[10], int n) {
+	for (int i = 0; i < n - 1; i++)
+	{
+		for (int j = 0; j < n - i - 1; j++)
+		{
+			if (a[j] > a[j + 1])
+			{
+				int tmp = a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = tmp;
+			}
+		}
+	}
+	for (int i = 0; i < n; i++)
+	{
+		std::cout << a[i] << "\t";
+	}
+	std::cout << std::endl;
+}
+
+void BubbleSort2(int a[10], int n) {
+	for (int i = n - 1; i > 0; i--)
+	{
+		for (int j = 0; j < i; j++)
+		{
+			if (a[j] > a[j + 1])
+			{
+				int tmp = a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = tmp;
+			}
+		}
+	}
+	for (int i = 0; i < n; i++)
+	{
+		std::cout << a[i] << "\t";
+	}
+	std::cout << std::endl;
+}

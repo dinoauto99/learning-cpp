@@ -37,6 +37,9 @@ int main()
 	Ex2_FindSum();
 	Ex3_Sum2Matrix();
 	Ex4_SumOddinMatrix();*/
+
+	// Chapter 5
+	Ex1_RemoveRedundantSpace2Sides();
 	
 	return 0;
 }
