@@ -4,6 +4,7 @@
 #include "05-ArrayChap2.h"
 #include "06-Chap4.h"
 #include "07-Chap5.h"
+#include "08-Chap6.h"
 
 int main()
 {
@@ -39,7 +40,13 @@ int main()
 	Ex4_SumOddinMatrix();*/
 
 	// Chapter 5
-	Ex1_RemoveRedundantSpace2Sides();
+	/*Ex1_RemoveRedundantSpace2Sides();
+	Ex2_RemoveRedundantSpaceInLine();
+	Ex3_UpperCaseEachWord();
+	Ex4_OptimizeString();*/
+
+	// Chapter 6
+	MainChap6();
 	
 	return 0;
 }

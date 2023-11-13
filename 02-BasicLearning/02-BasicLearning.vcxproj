@@ -136,6 +136,7 @@
     <ClInclude Include="05-ArrayChap2.h" />
     <ClInclude Include="06-Chap4.h" />
     <ClInclude Include="07-Chap5.h" />
+    <ClInclude Include="08-Chap6.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Exercises.txt" />

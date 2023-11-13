@@ -318,7 +318,7 @@ Ket qua: Bui Duc Long
 ```
 
 ##########################################################
-
+file: 08-Chap6.h
 ## Bài tập chương 06
 #### Bài 1: Viết chương trình nhập vào 1 số nguyên dương n. Kiểm tra xem số n có phải là số nguyên tố hay không
 
