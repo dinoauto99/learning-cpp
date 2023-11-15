@@ -5,6 +5,7 @@
 #include "06-Chap4.h"
 #include "07-Chap5.h"
 #include "08-Chap6.h"
+#include "09-Chap7.h"
 
 int main()
 {
@@ -46,7 +47,15 @@ int main()
 	Ex4_OptimizeString();*/
 
 	// Chapter 6
-	MainChap6();
+	//MainChap6();
+
+	// Chapter 7
+	//Ex1_AddElementDynamicArray();
+	//Ex2_RemoveElementInDynamicArray();
+	//Ex3_AddElementAtSpecificIndex();
+	//Ex4_BubbleSortDynamicArray();
+
+	// Chapter 8
 	
 	return 0;
 }

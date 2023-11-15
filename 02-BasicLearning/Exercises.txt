@@ -355,7 +355,7 @@ n = 3
 ```
 
 ##########################################################
-
+file: 09-Chap7.h
 ## Bài tập chương 07
 
 #### Bài 1: Tạo mảng động có n phần tử nguyên (tối đa 10 phần tử). Nhập vào 1 số nguyên x và thêm x vào cuối mảng vừa tạo.
