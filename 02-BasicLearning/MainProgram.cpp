@@ -6,6 +6,8 @@
 #include "07-Chap5.h"
 #include "08-Chap6.h"
 #include "09-Chap7.h"
+#include "10-Chap8.h"
+#include <cmath>
 
 int main()
 {
@@ -56,6 +58,8 @@ int main()
 	//Ex4_BubbleSortDynamicArray();
 
 	// Chapter 8
+	//Ex1_Circle();
+	Ex2_Product();
 	
 	return 0;
 }
