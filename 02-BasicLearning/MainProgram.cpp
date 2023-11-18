@@ -7,7 +7,9 @@
 #include "08-Chap6.h"
 #include "09-Chap7.h"
 #include "10-Chap8.h"
-#include <cmath>
+#include "11_TextFile.h"
+#include "12_OOP_1.h"
+#include "12_OOP_2_encapsulation.h"
 
 int main()
 {
@@ -52,14 +54,24 @@ int main()
 	//MainChap6();
 
 	// Chapter 7
-	//Ex1_AddElementDynamicArray();
-	//Ex2_RemoveElementInDynamicArray();
-	//Ex3_AddElementAtSpecificIndex();
-	//Ex4_BubbleSortDynamicArray();
+	/*Ex1_AddElementDynamicArray();
+	Ex2_RemoveElementInDynamicArray();
+	Ex3_AddElementAtSpecificIndex();
+	Ex4_BubbleSortDynamicArray();*/
 
 	// Chapter 8
-	//Ex1_Circle();
-	Ex2_Product();
+	/*Ex1_Circle();
+	Ex2_Product();*/
+
+	// Text file
+	/*ReadWriteFile();
+	TextFileModes();
+	OtherClassOfTextFile();
+	BinaryFile();*/
 	
+	// OOP in Cpp
+	//ClsInCpp();
+	SubOOP();
+
 	return 0;
 }

@@ -1,0 +1,3 @@
+new textHiiiiii
+Line 2
+The end of fileAdd new text here.
