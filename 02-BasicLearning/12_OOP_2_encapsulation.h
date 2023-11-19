@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include <iostream>
 
 class Square	// Encapsulation
@@ -41,7 +41,7 @@ public:
 
 };
 
-void SubOOP() {
+void SubOOP_encapsulation() {
 	// Encapsulation
 	//Square s1;
 	//s1.set_side_length(1.2);
@@ -54,3 +54,8 @@ void SubOOP() {
 	std::cout << "Age: " << cat->get_age() << endl;
 
 }
+
+/*
+Tính đóng gói
+Sử dụng getter, setter để get, set các đối tượng private, đảm bảo tính bảo mật
+*/

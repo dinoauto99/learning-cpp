@@ -10,6 +10,11 @@
 #include "11_TextFile.h"
 #include "12_OOP_1.h"
 #include "12_OOP_2_encapsulation.h"
+#include "12_OOP_3_inheritnace.h"
+#include "12_OOP_4_polymorphism.h"
+#include "12_OOP_5_abstraction.h"
+#include "12_OOP_6_friend.h"
+#include "12_OOP_7_vector.h"
 
 int main()
 {
@@ -71,7 +76,13 @@ int main()
 	
 	// OOP in Cpp
 	//ClsInCpp();
-	SubOOP();
+	//SubOOP_encapsulation();
+	//SubOOPinheritance();
+	//SubOOPpolymorphism();
+	//SubOOPabstraction();
+	//SubOOPfriendfunction();
+	//SubOOPfriendclass();
+	SubOOPvector();
 
 	return 0;
 }
