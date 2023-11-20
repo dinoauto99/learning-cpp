@@ -1,3 +1,0 @@
-new textHiiiiii
-Line 2
-The end of file
